@@ -1,0 +1,290 @@
+/* body */
+ body{
+	 overflow-x: hidden;
+ 
+	     }
+ /* header */
+.logo{
+	height: 100px;
+	width: 100px;
+
+     }
+ .hero-text{
+	 margin: 0 auto;
+	 position: absolute;
+	 top: 50%;
+	 left: 10%;
+ 
+	     }
+  @media screen and (max-width :1200px){
+	  .myImg{
+		  display: none;
+	  
+		     }
+	  .hero-text{
+		  display: none;
+	  
+		     }
+	  .hero-text2{
+		margin: 0 auto;
+		position: absolute;
+		top: 30%;
+		left: 10%;
+	  
+	     }
+	  .d-sm-block{
+		  display: none;
+	  
+		     }
+  
+	     }
+  .our-expert-area {
+	position: relative;
+	z-index: 1;
+	margin-top: 100px;
+	padding-top:50px; 
+     }
+	.our-expert-area::before {
+	  position: absolute;
+	  width: 100%;
+	  height: 80%;
+	  content: '';
+	  top: 0;
+	  right: 0;
+	  z-index: -1;
+	  background-color: #f6f9f9; 
+	     }
+	.our-expert-area .side-thumbnail {
+	  position: absolute;
+	  width: 555px;
+	  height: 70%;
+	  right: 50%;
+	  top: 0;
+	  z-index: -1;
+	  background-position: top center;
+	  background-size: cover;
+	  background-repeat: no-repeat; 
+	     }
+	  @media only screen and (min-width: 768px) and (max-width: 991px) {
+		.our-expert-area .side-thumbnail {
+		  height: 50%;
+		  opacity: 0.2; 
+		     } 
+		     }
+	  @media only screen and (max-width: 767px) {
+		.our-expert-area .side-thumbnail {
+		  display: none; 
+		     } 
+		     }
+	.our-expert-area.about-us-page::before {
+	  height: 100%; 
+	     }
+	.our-expert-area.about-us-page .side-thumbnail {
+	  height: 100%; 
+	     }
+  
+  .our-certificate-area {
+	position: relative;
+	z-index: 1; 
+     }
+	.our-certificate-area img {
+	  margin-right: 30px;
+	  max-height: 45px; 
+	     }
+	  .our-certificate-area img:last-child {
+		margin-right: 0; 
+	     }
+  
+  .single-team-member {
+	position: relative;
+	z-index: 1;
+	border: 1px solid #e5e5e5;
+	-webkit-transition-duration: 500ms;
+	-o-transition-duration: 500ms;
+	transition-duration: 500ms;
+	background-color: #ffffff; 
+     }
+	.single-team-member .team-member-img {
+	  position: relative;
+	  z-index: 1; 
+	     }
+	  .single-team-member .team-member-img img {
+		-webkit-transition-duration: 500ms;
+		-o-transition-duration: 500ms;
+		transition-duration: 500ms;
+		width: 100%;
+		-webkit-filter: grayscale(100%);
+		filter: grayscale(100%); 
+	     }
+		
+.our-certificate-area {
+	position: relative;
+	z-index: 1; 
+     }
+	.our-certificate-area img {
+	  margin-right: 30px;
+	  max-height: 45px; 
+	     }
+	  .our-certificate-area img:last-child {
+		margin-right: 0; 
+	     }
+  
+  .single-team-member {
+	position: relative;
+	z-index: 1;
+	border: 1px solid #e5e5e5;
+	-webkit-transition-duration: 500ms;
+	-o-transition-duration: 500ms;
+	transition-duration: 500ms;
+	background-color: #ffffff; 
+     }
+	.single-team-member .team-member-img {
+	  position: relative;
+	  z-index: 1; 
+	     }
+	  .single-team-member .team-member-img img {
+		-webkit-transition-duration: 500ms;
+		-o-transition-duration: 500ms;
+		transition-duration: 500ms;
+		width: 100%;
+		-webkit-filter: grayscale(100%);
+		filter: grayscale(100%); 
+	     }
+	  .single-team-member .team-member-img .team-social-info {
+		-webkit-transition-duration: 500ms;
+		-o-transition-duration: 500ms;
+		transition-duration: 500ms;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(255, 255, 255, 0.8);
+		opacity: 0;
+		visibility: hidden;
+		top: 0;
+		left: 0;
+		z-index: 10;
+		text-align: center; 
+	     }
+		.single-team-member .team-member-img .team-social-info .social-link a {
+		  display: inline-block;
+		  width: 46px;
+		  height: 46px;
+		  line-height: 46px;
+		  border-radius: 50%; 
+		
+		     }
+		  .single-team-member .team-member-img .team-social-info .social-link a:hover, .single-team-member .team-member-img .team-social-info .social-link a:focus {
+			background-color: #bca858;
+			-webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+			box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+			color: #ffffff;
+		 
+		     }
+	.single-team-member .team-member-info {
+	  padding: 20px 30px; 
+	     }
+	  .single-team-member .team-member-info h5 {
+		display: block;
+		margin-bottom: 10px; 
+	     }
+	  .single-team-member .team-member-info p {
+		margin-bottom: 0;
+		font-size: 14px; 
+	     }
+	.single-team-member:hover, .single-team-member:focus {
+	  -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+	  box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15); 
+	     }
+	  .single-team-member:hover img, .single-team-member:focus img {
+		width: 100%;
+		-webkit-filter: grayscale(0%);
+		filter: grayscale(0%); 
+	     }
+	  .single-team-member:hover .team-social-info, .single-team-member:focus .team-social-info {
+		opacity: 1;
+		visibility: visible; 
+	     }
+	  .single-team-member:hover .team-member-info h5, .single-team-member:focus .team-member-info h5 {
+		color: #bca858; 
+	     }
+  .card:hover{
+	  box-shadow: 10px 10px 10px 10px white;
+  
+	     }
+  .myImg3{
+	  padding-left: 70px;
+	  padding-top: 50px;
+  
+	     }
+  .single-service-area{
+	  padding-left: 20px;
+  
+	     }
+  @media (min-width: 1024px) and (max-width : 3000px){
+	  .hero-text2{
+		  display: none;
+	  
+		     } 
+	  .first-card{
+		margin-left: 70px;
+	
+	     }
+	.second-card{
+		margin-left: 70px;
+	
+	     }
+	.third-card{
+		margin-left: 70px;
+	
+	     }
+  
+     }
+ .myBtn{
+	 background: transparent;
+	 border-radius: 50px;
+	 border: 1px solid black;
+	 padding-left: 40px;
+	 padding-right: 40px;
+ 
+	     }
+ .myBtn:hover{
+	 background-color:burlywood;
+	 border: 1px solid burlywood;
+	 box-shadow: 5px 10px #888888;
+ 
+	     }
+/* main */
+main{
+	margin-top: 100px;
+
+     }
+hr{
+	padding-left: 200px;
+	width: 700px;
+
+     }
+.myP{
+	text-align: center;
+
+     }
+.myH1{
+	text-align: center;
+
+     }
+.section-heading{
+	text-align: center;
+}
+.why-choose-us{
+	background-color: #f6f9f9; 
+	height: 80%;
+	padding-top: 100px;
+	margin-top: 100px;
+	padding-bottom: 60px;
+}
+.mySecondImg{
+	box-shadow:30px 25px 5px rgba(128, 128, 128, 0.164);
+}
+.number-one-best-choice{
+	
+}
+/* footer */
