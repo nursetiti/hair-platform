@@ -285,6 +285,24 @@ hr{
 	box-shadow:30px 25px 5px rgba(128, 128, 128, 0.164);
 }
 .number-one-best-choice{
-	
+	background-color: #f6f9f9; 
+	margin-top: 100px;
+	padding-top: 80px;
 }
+.niks-brand{
+	padding-top: 90px;
+}
+.myBtn3{
+	background: burlywood;
+	border-radius: 50px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.myBtn3:hover{
+	background-color:black;
+	border: 1px solid black;
+	box-shadow: 5px 10px #888888;
+	color: white
+
+		}
 /* footer */
